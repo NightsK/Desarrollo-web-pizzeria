@@ -1,0 +1,156 @@
+{
+  "dishes": [
+    {
+      "id": 0,
+      "name": "Pepperoni",
+      "image": "images/pizza.jpg",
+      "category": "pizzas",
+      "label": "caliente",
+      "price": "99.00",
+      "featured": "true",
+      "description": "Pizza de Peperoni tradicional",
+      "comments": [
+        {
+          "rating": 5,
+          "comment": "Deliciosa pizza, como siempre",
+          "author": "Bruce Willis",
+          "date": "2018-05-16T17:57:28.556094Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Está chida, pero no tanto",
+          "author": "Jackie Chan",
+          "date": "2018-06-05T17:57:28.556094Z"
+        },
+        {
+          "rating": 3,
+          "comment": "Está súper sobrevalorada",
+          "author": "Tom Cruise",
+          "date": "2018-06-13T17:57:28.556094Z"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Papas gajo",
+      "image": "images/papas_gajo.jpg",
+      "category": "entradas",
+      "label": "",
+      "price": "79",
+      "featured": "false",
+      "description": "Papas horneadas con aceite de oliva y nuestra receta de especias",
+      "comments": [
+        {
+          "rating": 5,
+          "comment": "Deliciosa pizza, como siempre",
+          "author": "Bruce Willis",
+          "date": "2018-05-16T17:57:28.556094Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Está chida, pero no tanto",
+          "author": "Jackie Chan",
+          "date": "2018-06-05T17:57:28.556094Z"
+        },
+        {
+          "rating": 3,
+          "comment": "Está súper sobrevalorada",
+          "author": "Tom Cruise",
+          "date": "2018-06-13T17:57:28.556094Z"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Alitas Búfalo",
+      "image": "images/alitas_bufalo.jpg",
+      "category": "entradas",
+      "label": "Nuevo",
+      "price": "69",
+      "featured": "false",
+      "description": "Alas de pollo preparadas con salsa búfalo",
+      "comments": [
+        {
+          "rating": 5,
+          "comment": "Deliciosa pizza, como siempre",
+          "author": "Bruce Willis",
+          "date": "2018-05-16T17:57:28.556094Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Está chida, pero no tanto",
+          "author": "Jackie Chan",
+          "date": "2018-06-05T17:57:28.556094Z"
+        },
+        {
+          "rating": 3,
+          "comment": "Está súper sobrevalorada",
+          "author": "Tom Cruise",
+          "date": "2018-06-13T17:57:28.556094Z"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Oreo Cheesecake",
+      "image": "images/oreo_cheesecake.jpg",
+      "category": "postres",
+      "label": "",
+      "price": "39",
+      "featured": "false",
+      "description": "Rebanada de cheesecake con base de galleta Oreo",
+      "comments": [
+        {
+          "rating": 5,
+          "comment": "Deliciosa pizza, como siempre",
+          "author": "Bruce Willis",
+          "date": "2018-05-16T17:57:28.556094Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Está chida, pero no tanto",
+          "author": "Jackie Chan",
+          "date": "2018-06-05T17:57:28.556094Z"
+        },
+        {
+          "rating": 3,
+          "comment": "Está súper sobrevalorada",
+          "author": "Tom Cruise",
+          "date": "2018-06-13T17:57:28.556094Z"
+        }
+      ]
+    }
+  ],
+  "promotions": [
+    {
+      "id": 0,
+      "name": "Paquete de fin de semana",
+      "image": "images/special.jpg",
+      "label": "Nuevo",
+      "price": "219",
+      "featured": "true",
+      "description": "Paquete de pizza, alas búfalo y papas gajo"
+    }
+  ],
+  "leaders": [
+    {
+      "id": 0,
+      "name": "Maverick Mitchell",
+      "image": "images/tom.jpg",
+      "designation": "Inventor de la deliciosa pizza",
+      "abbr": "Fundador",
+      "featured": "true",
+      "description": "Estando en un rato de ocio creo la pizza que a todos nos gusta. Ahora cuenta con x número de restaurantes a nivel internacional."
+    },
+    {
+      "id": 1,
+      "name": "Iceman Kazansky",
+      "image": "images/val.jpg",
+      "designation": "El segundón",
+      "abbr": "Chef",
+      "featured": "false",
+      "description": "El chef que prepara todo lo demás."
+    }
+  ],
+  "feedback": []
+}
