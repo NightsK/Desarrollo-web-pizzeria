@@ -17,8 +17,7 @@ export class DishProvider {
   constructor(public http: HttpClient) {
     console.log('Hello DishProvider Provider');
   }
-//estamos creando una funcion getDishes, esta extrae informacion del array Dish que se importo anteriormente 
-//luego lo cachamos y lo guarda, tambien se saca la informacion del localhost/dishes y lo mapea
+
   getDishes(): Observable<Dish[]>{
     return this.http.get<Dish[]>(dbURL + 'dishes').map(
       res => res

@@ -1,26 +1,20 @@
 <?xml version='1.0' encoding='utf-8'?>
+<!-- Widget ID is the name package of the app, this name package is use in the Appstore && Playstore -->
 <widget id="io.ionic.starter" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-<!--El widget id es el nombre del paquete de nuestra app, el nombre del paquete es necesario para 
-los marketplace de las apps no lo dejes io.ionic.starter --> 
-    <name>pizzeria</name>
-    <!-- nombre de la app -->
-    <description>An awesome Ionic/Cordova app.</description>
-    <!-- descripcion de la app -->
-    <author email="hi@ionicframework" href="http://ionicframework.com/">Ionic Framework Team</author>
-    <!-- nombre del autor -->
+    <name>Pizzeria</name>
+    <description>An awesome pizzeria app.</description>
+    <author email="leosolutio@gmail.com" href="http://ionicframework.com/">Clase web 3</author>
     <content src="index.html" />
-
     <access origin="*" />
-    <!-- de donde puedes accesar. si quieres para pruebas, restriingir ips y eso es aqui -->
+    <!-- Phone access -->
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-    <!-- a que tiene acceso la app -->
-    
-    <!-- preferencias la version minima es la 4.4 creo y va en la 8 -->
+
+    <!-- Phone Preferences -->
     <preference name="ScrollEnabled" value="false" />
     <preference name="android-minSdkVersion" value="19" />
     <preference name="BackupWebStorage" value="none" />
@@ -29,6 +23,8 @@ los marketplace de las apps no lo dejes io.ionic.starter -->
     <preference name="SplashShowOnlyFirstTime" value="false" />
     <preference name="SplashScreen" value="screen" />
     <preference name="SplashScreenDelay" value="3000" />
+
+    <!-- Android Preferences -->
     <platform name="android">
         <allow-intent href="market:*" />
         <icon density="ldpi" src="resources/android/icon/drawable-ldpi-icon.png" />
@@ -50,10 +46,10 @@ los marketplace de las apps no lo dejes io.ionic.starter -->
         <splash density="port-xxhdpi" src="resources/android/splash/drawable-port-xxhdpi-screen.png" />
         <splash density="port-xxxhdpi" src="resources/android/splash/drawable-port-xxxhdpi-screen.png" />
     </platform>
+    <!-- IOS Preferences -->
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
-        <!-- iconos que hay que personalizar -->
         <icon height="57" src="resources/ios/icon/icon.png" width="57" />
         <icon height="114" src="resources/ios/icon/icon@2x.png" width="114" />
         <icon height="40" src="resources/ios/icon/icon-40.png" width="40" />
@@ -87,7 +83,7 @@ los marketplace de las apps no lo dejes io.ionic.starter -->
         <splash height="480" src="resources/ios/splash/Default~iphone.png" width="320" />
         <splash height="2732" src="resources/ios/splash/Default@2x~universal~anyany.png" width="2732" />
     </platform>
-    <!-- plugins basicos y necesarios -->
+    <!-- Cordoba Plugins -->
     <plugin name="cordova-plugin-whitelist" spec="1.3.3" />
     <plugin name="cordova-plugin-statusbar" spec="2.4.2" />
     <plugin name="cordova-plugin-device" spec="2.0.2" />

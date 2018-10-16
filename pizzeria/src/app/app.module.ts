@@ -4,7 +4,6 @@ import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
-import { ListPage } from '../pages/list/list';
 import { AboutPage} from '../pages/about/about';
 import { MenuPage } from '../pages/menu/menu';
 import { ContactPage} from '../pages/contact/contact';
@@ -23,7 +22,6 @@ import {dbURL} from '../shared/dburl';
   declarations: [
     MyApp,
     HomePage,
-    ListPage,
     MenuPage,
     AboutPage,
     DishdetailPage,
@@ -38,7 +36,6 @@ import {dbURL} from '../shared/dburl';
   entryComponents: [
     MyApp,
     HomePage,
-    ListPage,
     MenuPage,
     AboutPage,
     DishdetailPage,

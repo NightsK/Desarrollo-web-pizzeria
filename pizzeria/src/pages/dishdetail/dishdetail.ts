@@ -33,10 +33,7 @@ export class DishdetailPage implements OnInit{
      {
       this.dish = navParams.get('dish');
       this.numComments = this.dish.comments.length;
-      /* la media de los reslutados 
-      por cada platillo sumamos su rating 
-      despues el total lo dividimos entre el total 
-      y lo limitamos a uqe solo nuestre 2 decimales*/
+    
 
       let total = 0;
       this.dish.comments.forEach(

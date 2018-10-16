@@ -2,7 +2,7 @@
   "dishes": [
     {
       "id": 0,
-      "name": "Pepperoni",
+      "name": "Peperoni",
       "image": "images/pizza.jpg",
       "category": "pizzas",
       "label": "caliente",

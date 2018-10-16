@@ -5,20 +5,29 @@
   Ionic pages and navigation.
 -->
 <ion-header>
-    <ion-navbar color="aguamarina">
+    <ion-navbar color="primary">
       <button ion-button menuToggle>
         <ion-icon name="menu"></ion-icon>
       </button>
-      <ion-title>ACERCA DE</ion-title>
+      <ion-title>About</ion-title>
     </ion-navbar>
   
   
   </ion-header>
   
   
-  <ion-content padding>
-  <p> SOMOS BIEN CHIDOS Y ASEMOS PISSA
-  </p>
-  
-  </ion-content>
-  
+  <ion-content>
+
+    <ion-card *ngIf="leader">
+		<img src="{{dbURL + leader.image}}" />
+		<ion-card-content>
+			<ion-card-title>
+				{{leader.name | uppercase}}
+			</ion-card-title>
+			<p>
+				{{leader.description}}
+			</p>
+		</ion-card-content>
+	</ion-card>
+
+    </ion-content>

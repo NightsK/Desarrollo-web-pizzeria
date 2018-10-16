@@ -20,7 +20,7 @@ export class HomePage implements OnInit {
   promotion:Promotion;
   leader:Leader;
 
-  constructor(  //nuestro constructor , en el estamos definiendo el dishService que es el dishProvider
+  constructor(
     public navCtrl: NavController,
     private dishService: DishProvider,
     private leaderService: LeaderProvider,
@@ -35,34 +35,34 @@ export class HomePage implements OnInit {
 
 
     getFeaturedDish(){
-      this.dishService //es una instancia del provider, el provider es dish provider
+      this.dishService 
       .getFeaturedDish()
       .subscribe(
         response => {
           this.dish=response[0];
-          console.log('holis');//this.dish;
+          console.log('ok');
         }
       )
     }
 
     
     getFeaturedPromotion(){
-      this.promotionService //es una instancia del provider, el provider es dish provider
+      this.promotionService 
       .getFeaturedPromotion()
       .subscribe(
         response => {
           this.promotion=response[0];
-          console.log(this.promotion);//this.dish;
+          console.log(this.promotion);
         }
       )
     }
     getFeaturedLeader(){
-      this.leaderService//es una instancia del provider, el provider es dish provider
+      this.leaderService
       .getFeaturedLeader()
       .subscribe(
         response => {
           this.leader=response[0];
-          console.log(this.leader);//this.dish;
+          console.log(this.leader);
         }
       )
     }
