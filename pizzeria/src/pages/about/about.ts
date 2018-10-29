@@ -46,13 +46,8 @@ export class AboutPage implements OnInit{
   this.getFeaturedLeader();
   }
 
-  getLeaderDetails(
-    event, leader
-  ){
-    this.navCtrl.push(LeaderDetailPage, {
-      leader:leader
-    });
+
     
   }
 
-}
+

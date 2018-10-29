@@ -17,6 +17,7 @@ import { PromotionProvider } from '../providers/promotion/promotion';
 import { HttpClientModule } from '@angular/common/http';
 
 import {dbURL} from '../shared/dburl';
+import { FavoritesProvider } from '../providers/favorites/favorites';
 
 @NgModule({
   declarations: [
@@ -48,7 +49,8 @@ import {dbURL} from '../shared/dburl';
     DishProvider,
     LeaderProvider,
     PromotionProvider,
-    {provide: 'DbURL', useValue: dbURL}
+    {provide: 'DbURL', useValue: dbURL},
+    FavoritesProvider
   ]
 })
 export class AppModule {}
